@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative !important;
+    background-attachment: fixed;
+    max-height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-style: "Alegrya Sans", !important;
+    color: #700B97;
+}
+
+.icon {
+    -webkit-border-radius: 50% !important;
+     -moz-border-radius: 50% !important;
+          border-radius: 50% !important;
+}
+
+
+
+.navbar {
+    position: fixed;
+    box-shadow: rgb(238, 236, 236) 2px 2px 2px !important;
+}
+
+#movie-list {
+    margin-top: 40px;
+    max-width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+#search-input {
+    max-height: 34px;
+}
+
+.card-body {
+    height: 300px;
+}
